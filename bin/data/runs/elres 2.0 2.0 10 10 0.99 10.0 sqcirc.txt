@@ -1,0 +1,11 @@
+Summary between original and estimates
+image std = 82.97201020180667 rmse = 6.497467886982918 
+First Image edge-mse 	43.93792368439037
+ Second Image edge-mse 	44.1612540552125
+ Difference in edge-mse	-0.2233303708221328
+
+Summary between original and noise
+image std = 82.97201020180667 rmse = 10.122928266094346 
+First Image edge-mse 	43.93792368439037
+ Second Image edge-mse 	46.23235272852013
+ Difference in edge-mse	-2.294429044129757
