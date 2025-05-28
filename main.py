@@ -63,9 +63,9 @@ axes[3].set_title("Denoised")
 axes[4].imshow(res.edge,"Greys", interpolation ="None")
 axes[4].axis("off")
 axes[4].set_title("Edges")
+plt.savefig(savefile)
 
 plt.show()
-plt.savefig(savefile)
 #print(f"{np.max(img)}")
 max = 1
 if np.max(img)>20:
