@@ -111,7 +111,7 @@ def summary(image, estimates):
     emse_orig= edgemse(image)
     emse_estim = edgemse(estimates)
     emse_diff = emse_orig-emse_estim
-    res =res + f"True Image edge-mse \t{emse_orig}\n Estimated image edge-mse \t{emse_estim}\n difference\t{emse_diff}\n"
+    res =res + f"First Image edge-mse \t{emse_orig}\n Second Image edge-mse \t{emse_estim}\n Difference in edge-mse\t{emse_diff}\n"
     return res
 
 import contextlib
