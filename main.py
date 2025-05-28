@@ -1,5 +1,4 @@
 from denoise import utils
-from denoise import cluster
 from denoise import ellipse
 import matplotlib.image as mpimg
 from sys import argv
